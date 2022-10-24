@@ -5,8 +5,8 @@ import {TaskList} from "./TaskList";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <>
+  <div className="container">
     <Header/>
     <TaskList/>
-  </>
+  </div>
 );
